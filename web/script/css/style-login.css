@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+#kepala {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;	
+	margin-bottom:20%;
+}
+#badan {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#kaki {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+#kepala {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;	
+	margin-bottom:5%;
+}
+#badan {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#kaki {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+#kepala {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-bottom:5%;
+}
+#badan {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#kaki {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/*=======================Login====================================*/
+body{
+    padding-top: 100px;
+}
+form{
+	padding: 20px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 15px 0 rgba(0,0,0,0.12) !important;
+}
+h4{
+    text-align: center;
+}
+.btn{
+	border-radius: 0px;
+}
+.form-control{
+	border-radius: 0px;
+	margin-bottom: 10px;
+}
+p{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+}
+.blue{
+	color: #fff;
+}
+.fa{
+	color: #fff;
+}
+.fa-facebook-f{
+	padding: 10px 12px 10px 12px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+.fa-google-plus{
+	padding: 10px 8px 10px 8px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+.fa-twitter{
+	padding: 10px 8px 10px 8px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+i{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.flip {
+  -webkit-perspective: 800;
+perspective: 800;
+
+    position: relative;
+}
+.flip .card.flipped {
+  -webkit-transform: rotatey(-180deg);
+    transform: rotatey(-180deg);
+}
+.flip .card {
+
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+}
+.flip .card .face {
+
+  -webkit-backface-visibility: hidden ;
+    backface-visibility: hidden ;
+  z-index: 2;
+   
+}
+.flip .card .front {
+  position: absolute;
+   width: 100%;
+  z-index: 1;
+
+}
+.flip .card .back {
+  -webkit-transform: rotatey(-180deg);
+    transform: rotatey(-180deg);
+}
+  .inner{margin:0px !important;}
+
+

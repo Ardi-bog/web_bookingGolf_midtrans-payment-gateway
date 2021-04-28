@@ -1,0 +1,15 @@
+{
+    "name": "web/halimgolf",
+    "description": "Halim Golf App",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "AkhmadRamadani",
+            "email": "ar20011118@gmail.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.41"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "halimgolf/midtrans",
+    "description": "Integration Midtrans",
+    "type": "project",
+    "license": "GLP",
+    "authors": [
+        {
+            "name": "Ardi B",
+            "email": "ardy1144malang@gmail.com"
+        }
+    ],
+    "require": {
+        "veritrans/veritrans-php": "dev-master"
+    }
+}
